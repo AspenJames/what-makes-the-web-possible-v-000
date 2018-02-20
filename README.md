@@ -10,7 +10,7 @@ To make the web work we need:
 Let's start with the last item. If we had all the other components, but we did not have a way to for browsers
 to find servers or for servers to return HTML texts to browsers, there would be no Web. The web stands on the shoulders of a giant. That giant is the Internet. The Internet provides addresses to the clients and servers so that they can exchange information. It also provides the error-correction and reconnection rules (How does the browser know to ask for more data once you get out from underneath a tunnel?).
 
-On top of this address and connection platform, servers and clients exchange information ("the web"). Technologists say that **the web is an Internet application**, but it is not the only one. Just as the address scheme for houses and the roadways can e used to deliver packages or bills, another **application** of post code addressing and roadways is "delivering a pizza." Another **application** is "organizing precincts for voting." Applications work "on top" of lower level constructs.
+On top of this address and connection platform, servers and clients exchange information ("the web"). Technologists say that **the web is an Internet application**, but it is not the only one. Just as the address scheme for houses and the roadways can be used to deliver packages or bills, another **application** of post code addressing and roadways is "delivering a pizza." Another **application** is "organizing precincts for voting." Applications work "on top" of lower level constructs.
 
 Now that we have a way to exchange HTTP requests (web requests), what are the other components for?
 
@@ -20,7 +20,7 @@ Once we have an HTML document we want to publish, where do we place it to make i
 
 Our content is now available to the whole web. Yay! What tool can we use to view it? How do we reach it? This is where web browsers come in. Web browsers know how to translate HTML code into something that is pleasant to read for a human.
 
-How do web browsers and servers interact? We have an agreed-upon convention for servers and browsers to exchange data. That convention (standard) is HTTP, or, in networking parlance, a "network protocol." It's how web browsers speak to web servers and ask the servers to send them payloads of HTML. _Be careful_: HTTP is like a handshake and a request: "Ms. Server, please tell me what information you have in the file `poodles.html`." Ms. Server then sends it on, indifferent to the content inside the file. That's HTTP, the hype-text transfer protocol, the rules for sending hyper-text, also known as HTML.
+How do web browsers and servers interact? We have an agreed-upon convention for servers and browsers to exchange data. That convention (standard) is HTTP, or, in networking parlance, a "network protocol." It's how web browsers speak to web servers and ask the servers to send them payloads of HTML. _Be careful_: HTTP is like a handshake and a request: "Ms. Server, please tell me what information you have in the file `poodles.html`." Ms. Server then sends it on, indifferent to the content inside the file. That's HTTP, the hyper-text transfer protocol, the rules for sending hyper-text, also known as HTML.
 
 ![HTTP Request / Response Diagram](https://curriculum-content.s3.amazonaws.com/fswb-assets/what-makes-the-web-possible/request_response.jpg)
 
